@@ -7,13 +7,21 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+<<<<<<< HEAD
 library(tidyverse)
 spotify <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-21/spotify_songs.csv')
+=======
+spotify <- read.csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-21/spotify_songs.csv')
+>>>>>>> b5751a4dd74d3e536bbaa96d4b6f46af331afac3
 ```
 
 Data source: https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-01-21
 
 ```{r}
+<<<<<<< HEAD
 spotify %>% summary()
+=======
+summary(spotify)
+>>>>>>> b5751a4dd74d3e536bbaa96d4b6f46af331afac3
 ```
 
