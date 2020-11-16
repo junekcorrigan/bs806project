@@ -1,0 +1,18 @@
+---
+title: "Project"
+author: "June Corrigan"
+date: "11/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+spotify <- read.csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-21/spotify_songs.csv')
+```
+
+Data source: https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-01-21
+
+```{r}
+summary(spotify)
+```
+
